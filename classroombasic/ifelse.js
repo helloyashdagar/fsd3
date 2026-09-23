@@ -7,6 +7,7 @@ if (age >= 18) {
 }
 
 //switch case
+
 let fruit = "Apple";
 
 switch (fruit) {
@@ -14,6 +15,8 @@ switch (fruit) {
     console.log("It is Red");
     break;
   case "Banana":
-    console.lof("it is yellow"));
+    console.log("It is Yellow");
     break;
+  default:
+    console.log("Unknown fruit");
 }
